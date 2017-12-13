@@ -48,10 +48,5 @@ Scope:
        
        -Eventual login system.
        
-Scaling Considerations:  A bottleneck will be the crawl delay, one page grab per second.  The user requests are asynchronously made and
-then spawned into several processes on the Python side of things. Ideally page requests will be queued in an interlaced fashion so users won't
-have to wait for some other user to finish his ANN visualization.   ALL post and thread data will be stored on the server.  When a request is
-made we will look in a hash table (bloom table might be nice) to see if the page has already been added. If so we don't need to crawl. 
-With continued usage crawling BCT should become minimal.  By providing an API others will no longer need to crawl old post history as well
-whoever wants to build apps on top of the API.
+Scaling Considerations:  A bottleneck will be the crawl delay, one page grab per second.   ALL post and thread data will be stored on the server.  When a request is made we will look in a hash table (bloom table might be nice) to see if the page has already been added. If so we don't need to crawl.  With continued usage crawling BCT should become minimal.  By providing an API others will no longer need to crawl old post history as well whoever wants to build apps on top of the API.
 
