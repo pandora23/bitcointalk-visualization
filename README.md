@@ -8,44 +8,44 @@ Scope:
 
 2. To perform automated visualization and data analytics on this data which may including:
 
-  -sentiment analysis and emotion detection (have our own working system)
+       -sentiment analysis and emotion detection (have our own working system)
 
-  -word clouds, word trees, and other surface level text visualization
+       -word clouds, word trees, and other surface level text visualization
 
-  -deeper level analysis of meaning
+       -deeper level analysis of meaning
 
-  -time series analysis
+       -time series analysis
 
-  -machine learning and data mining to perform classification tasks (sklearn to start)
+       -machine learning and data mining to perform classification tasks (sklearn to start)
 
 On the following Possible tasks:
 
-  -User Analysis
+       -User Analysis
 
-  -ICO Analysis
+       -ICO Analysis
 
-  -Scam/Scammer Detection
+       -Scam/Scammer Detection
 
-  -Shitpost/Shitposter Analyis and Detection
+       -Shitpost/Shitposter Analyis and Detection
 
 3. To develop a backend which will host an API
 
-  -Some type of Database (both MySQL and Mongo would be fine for me) to store data.
+       -Some type of Database (both MySQL and Mongo would be fine for me) to store data.
 
-  -Python Tornado (Async) for the API
+       -Python Tornado (Async) for the API
 
-  -A 'queue' for safe crawling.  One page/second.
+       -A 'queue' for safe crawling.  One page/second.
 
-  -Python for the visualization and analytics as discussed above.
+       -Python for the visualization and analytics as discussed above.
 
-  -Eventual login system. (PHP of Python.)
+       -Eventual login system. (PHP of Python.)
 
 4. To develop a front end.
 
-  -I like Angular.js and Bootstrap but am open for suggestions.
+       -I like Angular.js and Bootstrap but am open for suggestions.
 
-  -Allows users to request visualizations.
+       -Allows users to request visualizations.
 
-  -Eventual login system.
+       -Eventual login system.
 
 Scaling Considerations: A bottleneck will be the crawl delay, one page grab per second. ALL post and thread data will be stored on the server. When a request is made we will look in a hash table (bloom table might be nice) to see if the page has already been added. If so we don't need to crawl. With continued usage crawling BCT should become minimal. By providing an API others will no longer need to crawl old post history as well whoever wants to build apps on top of the API.
