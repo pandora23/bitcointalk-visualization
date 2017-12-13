@@ -34,7 +34,7 @@ Scope:
        
        -Python Tornado (Async) for the API
        
-       -A 'queue' which safely processes the crawling aspects of requests.  One page grab per second according to the benign crawling standards.
+       -A 'queue' which safely processes the crawling aspects of requests.  One page/second according to the safe crawling standards.
        
        -Python for the visualization and analytics as discussed above.
        
