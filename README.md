@@ -34,11 +34,11 @@ Scope:
        
        -Python Tornado (Async) for the API
        
-       -A 'queue' which safely processes the crawling aspects of requests.  One page/second according to the safe crawling standards.
+       -A 'queue' for safe crawling.  One page/second.
        
        -Python for the visualization and analytics as discussed above.
        
-       -Eventual login system. (might actually use PHP/Mysql for this since I know how but will look into a Python solution.)
+       -Eventual login system. (PHP of Python.)
        
 4.  To develop a front end.
 
