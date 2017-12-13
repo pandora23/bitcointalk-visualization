@@ -4,9 +4,9 @@ This is the main repository for the bitcointalk visualization project.
 
 Scope:
 
-To develop methods for 'benignly' crawling and extracting data from Bitcointalk user posts and ANN threads. Currently using: Python, Beautiful Soup
+1. To develop methods for 'benignly' crawling and extracting data from Bitcointalk user posts and ANN threads. Currently using: Python, Beautiful Soup
 
-To perform automated visualization and data analytics on this data which may including:
+2. To perform automated visualization and data analytics on this data which may including:
 
 -sentiment analysis and emotion detection (have our own working system)
 
@@ -28,7 +28,7 @@ On the following Possible tasks:
 
 -Shitpost/Shitposter Analyis and Detection
 
-To develop a backend which will host an API
+3. To develop a backend which will host an API
 
 -Some type of Database (both MySQL and Mongo would be fine for me) to store data.
 
@@ -39,7 +39,8 @@ To develop a backend which will host an API
 -Python for the visualization and analytics as discussed above.
 
 -Eventual login system. (PHP of Python.)
-To develop a front end.
+
+4. To develop a front end.
 
 -I like Angular.js and Bootstrap but am open for suggestions.
 
