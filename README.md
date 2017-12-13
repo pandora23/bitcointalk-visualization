@@ -14,15 +14,21 @@ Scope:
 
        -deeper level analysis of meaning
 
-       -time series analysis
+       -time series analysis and prediction
 
        -machine learning and data mining to perform classification tasks (sklearn to start)
+       
+       -topic modeling
 
 On the following Possible tasks:
 
        -User Analysis
 
        -ICO Analysis
+       
+       -Coin Analysis including Price and Sentiment visualization
+       
+       -Shilling detection
 
        -Scam/Scammer Detection
 
