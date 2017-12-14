@@ -22,6 +22,8 @@ Scope:
        -machine learning and data mining to perform classification tasks (sklearn to start)
        
        -topic modeling
+       
+       -combining price and volume analysis with text and sentiment analysis
 
 On the following Possible tasks:
 
