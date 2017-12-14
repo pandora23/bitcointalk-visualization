@@ -47,7 +47,7 @@ On the following Possible tasks:
 
        -Python for the visualization and analytics as discussed above.
 
-       -Eventual login system. (PHP of Python.)
+       -Eventual login system. (maybe)
 
 4. To develop a front end.
 
@@ -55,6 +55,5 @@ On the following Possible tasks:
 
        -Allows users to request visualizations.
 
-       -Eventual login system.
 
 Scaling Considerations: A bottleneck will be the crawl delay, one page grab per second. ALL post and thread data will be stored on the server. When a request is made we will look in a hash table (bloom table might be nice) to see if the page has already been added. If so we don't need to crawl. With continued usage crawling BCT should become minimal. By providing an API others will no longer need to crawl old post history as well whoever wants to build apps on top of the API.
