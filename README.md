@@ -23,21 +23,17 @@ Scope:
        
        -topic modeling
        
-       -combining price and volume analysis with text and sentiment analysis
 
 On the following Possible tasks:
 
+       -ICO and coin analysis (via ANN threads) in general
+
        -User Analysis
 
-       -ICO Analysis
-       
-       -Coin Analysis including Price and Sentiment visualization
-       
        -Shilling detection
+       
+       -Topic modeling and visualization to show themes and keywords for different new coins.
 
-       -Scam/Scammer Detection
-
-       -Shitpost/Shitposter Analyis and Detection
 
 3. To develop a backend which will host an API
 
