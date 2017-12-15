@@ -2,6 +2,8 @@
 
 bitcointalk-visualization
 
+OUR DIRECTION IN TERMS OF VISION AND DEVELOPMENT IS STILL BEING RESOLVED.  WAITING ON MORE TEAM MEMBERS TO DISCUSS FURTHER.
+
 This is the main repository for the bitcointalk visualization project.
 Trello: https://trello.com/b/fBefa8LD/bct-visualization-project-iteration-1
 
