@@ -2,6 +2,8 @@
 
 bitcointalk-visualization
 
+MIGHT DO THIS IN GO.
+
 OUR DIRECTION IN TERMS OF VISION AND DEVELOPMENT IS STILL BEING RESOLVED.  WAITING ON MORE TEAM MEMBERS TO DISCUSS FURTHER.
 
 This is the main repository for the bitcointalk visualization project.
