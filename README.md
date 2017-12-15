@@ -9,7 +9,7 @@ OUR DIRECTION IN TERMS OF VISION AND DEVELOPMENT IS STILL BEING RESOLVED.  WAITI
 This is the main repository for the bitcointalk visualization project.
 Trello: https://trello.com/b/fBefa8LD/bct-visualization-project-iteration-1
 
-Scope:
+Current Scope (To be decided):
 
 1. To develop methods for 'benignly' crawling and extracting data from Bitcointalk user posts and ANN threads. Currently using: Python, Beautiful Soup
 
@@ -27,10 +27,15 @@ Scope:
        
        -topic modeling
        
+       -clustering and graph algorithms 
 
 On the following Possible tasks:
 
        -ICO and coin analysis (via ANN threads) in general
+       
+       -Show users 'new coins'
+       
+       -Cluster coins
 
        -User Analysis
 
